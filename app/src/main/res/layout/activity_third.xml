@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+
+    tools:context="com.sjpproj1.sjp1.ThirdActivity"
+    android:clickable="false"
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:text="About The  App"
+        android:gravity="center"
+        android:textColor="#f2f7f6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="50dp"
+        android:fontFamily="ComicSans"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:ïd="@+id/start1"
+        tools:context="com.sjpproj1.sjp1.aboutanim"
+        android:background="#26dce2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:paddingLeft="10dp"
+        android:textSize="30sp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:layout_marginTop="80dp"
+        android:textColor="#121111"
+        android:text="        This     app   converts decimal    numbers   from base 2-9 or 16 to decimal numbers with base 2-9 or 16."
+        android:id="@+id/textView" />
+
+
+</RelativeLayout>
